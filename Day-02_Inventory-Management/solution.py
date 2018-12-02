@@ -1,10 +1,10 @@
-import chronal_calibration as cc
-import chronal_calibration_pt2 as cc_pt2
+import inventory_management as im
+import inventory_management_pt2 as im_pt2
 
 if __name__ == '__main__':
 
     file = "inputs.txt"
 
-    cc.chronal_calibration(file)
+    im.inventory_management(file)
 
-    cc_pt2.chronal_calibration_pt2(file)
+    im_pt2.inventory_management_pt2(file)
